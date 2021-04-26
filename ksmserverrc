@@ -1,0 +1,24 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10ef143cfcd000161942963300000005500003
+clientId2=10ef143cfcd000161939655100000005660005
+clientId3=10ef143cfcd000161943080500000005500005
+count=3
+discardCommand3[$e]=rm,$HOME/.config/session/kmix_10ef143cfcd000161943080500000005500005_1619431005_811784
+program1=/usr/lib/DiscoverNotifier
+program2=firefox
+program3=/usr/bin/kmix
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10ef143cfcd000161942963300000005500003_1619431005_810719
+restartCommand2=/usr/lib/firefox/firefox,--sm-client-id,10ef143cfcd000161939655100000005660005
+restartCommand3=/usr/bin/kmix,-session,10ef143cfcd000161943080500000005500005_1619431005_811784
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=oldnero
+userId2=oldnero
+userId3=oldnero

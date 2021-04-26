@@ -1,0 +1,12 @@
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=KMixWindow
+HDMI-1 Height 1920x1080=380
+HDMI-1 Width 1920x1080=576
+HDMI-1 XPosition 1920x1080=808
+HDMI-1 YPosition 1920x1080=28
+ObjectName=KMixWindow
+State=AAAA/wAAAAD9AAAAAAAAAkAAAAFeAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled

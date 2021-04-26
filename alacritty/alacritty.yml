@@ -1,0 +1,47 @@
+import:
+  - ~/.config/Alacritty/alacritty.yml
+
+shell:
+  program: /usr/bin/fish
+  args:
+    - --login
+
+env:
+  TERM: alacritty
+
+window:
+  dimensions:
+    coloumns: 140
+    lines: 40
+  
+  position:
+    x: 550
+    y: 270
+
+  padding:
+    x: 5
+    y: 5
+  
+  dynamic_title: true
+
+scrolling:
+  history: 1000
+
+font:
+  normal:
+    family: Hack
+    style: Regular
+  bold:
+    family: Hack
+    style: Bold
+  italic:
+    family: Hack
+    style: Bold
+  size: 12.0
+
+background_opacity: 0.90
+
+url:
+  launcher:
+    program: xdg-open
+    args: []
